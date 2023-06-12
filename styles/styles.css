@@ -6,15 +6,13 @@
     2. Container
         2.1 Container 1
         2.2 Container 2
+    3. Rating div
  */
 
 /*
     1. Global Styles
  */
 
-body {
-    justify-content: center;
-}
 
 /*
     2. Container
@@ -24,6 +22,8 @@ body {
 .container-1 {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 /*
@@ -34,6 +34,21 @@ body {
 .container-2 {
     display: flex;
     flex-direction: column;
-
+    justify-content: center;
+    align-items: center;
 }
 
+.div-container-2 {
+    justify-content: space-evenly;
+}
+
+/*
+    3. Rating div
+ */
+
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
